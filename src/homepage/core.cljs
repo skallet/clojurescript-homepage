@@ -61,6 +61,7 @@
         last-line (+ 1 (last nums))
         line-numbers (map render-line-number nums)
         line-values (map render-value o)
+
         last-value (render-last-line (last line-values))
         repeat-el (fn [e] (take (count keys) (repeat e)))
         whole-lines (interleave
@@ -90,7 +91,7 @@
    [render-line-number 3]
    [render-syntax "(" :base]
    [render-syntax "def " :fn]
-   [render-syntax "me" :base]
+   [render-syntax "me {" :base]
    [:br]
    [render-object person 4]])
 
