@@ -1,0 +1,52 @@
+body, html {
+  background-color: #21252b;
+  color: #9da5b4;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+div#app {
+  width: 753px;
+  border-right: 1px solid #636d83;
+}
+
+.line-number {
+  padding-left: .5em;
+  white-space: nowrap;
+  opacity: 0.6;
+  position: relative;
+  width: 43px;
+  display: inline-block;
+}
+
+.tab-left {
+  display: inline-block;
+  padding-left: 1em;
+}
+
+.syntax-base {
+  color: #abb2bf;
+}
+
+.syntax-fn {
+  color: #c678dd;
+}
+
+.syntax-kw {
+  color: #d19a66;
+}
+
+a {
+  color: #56b6c2;
+}
+
+.syntax-string {
+  color: #98c379;
+}
+
+.syntax-line-number {
+  color: #636d83;
+}
