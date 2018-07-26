@@ -69,7 +69,6 @@
                       (concat (butlast line-values) (list last-value))
                       (repeat-el [:br]))
         lines (map-indexed #(with-meta %2  {:key %1}) whole-lines)]
-    (println line-values)
     [:div
      lines
      [render-line-number last-line]
